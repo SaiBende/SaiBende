@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.315ce69b.css",
+    "main.js": "/static/js/main.93e44c31.js",
+    "static/js/787.e6d6c67a.chunk.js": "/static/js/787.e6d6c67a.chunk.js",
+    "static/media/heroimg.png": "/static/media/heroimg.f4954a7851aa61c123bd.png",
+    "static/media/saiimg.png": "/static/media/saiimg.32ed49c80624272a370c.png",
+    "static/media/jscerti_page-0001.jpg": "/static/media/jscerti_page-0001.0135ab5ab6449f7d93a5.jpg",
+    "static/media/htmlcsscerti_page-0001.jpg": "/static/media/htmlcsscerti_page-0001.e0904efe1e49c45c73da.jpg",
+    "static/media/pythoncer_page-0001.jpg": "/static/media/pythoncer_page-0001.ca4c76cc59f089a32091.jpg",
+    "static/media/Copy of certi Sai Rajesh Bende_page-0001.jpg": "/static/media/Copy of certi Sai Rajesh Bende_page-0001.985ab14b24a2ea99296c.jpg",
+    "static/media/VotingSystemPython.jpeg": "/static/media/VotingSystemPython.da13fabd7e54ed2b541b.jpeg",
+    "static/media/CodeGPT.jpeg": "/static/media/CodeGPT.8f7521ad3616dd6094fa.jpeg",
+    "static/media/Nikrproject.jpeg": "/static/media/Nikrproject.34f3fcc46d505ee2e6d4.jpeg",
+    "index.html": "/index.html",
+    "main.315ce69b.css.map": "/static/css/main.315ce69b.css.map",
+    "main.93e44c31.js.map": "/static/js/main.93e44c31.js.map",
+    "787.e6d6c67a.chunk.js.map": "/static/js/787.e6d6c67a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315ce69b.css",
+    "static/js/main.93e44c31.js"
+  ]
+}

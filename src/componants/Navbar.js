@@ -13,7 +13,7 @@ function Navbar() {
             {/* Navbar */}
             <nav className="bg-black p-3  fixed w-full top-0 z-50">
                 <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
-                    <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">Porfolio </div>
+                    <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">Portfolio </div>
 
                     {/* Hamburger menu for small screens */}
                     <div className="lg:hidden ">

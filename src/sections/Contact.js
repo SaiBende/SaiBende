@@ -22,7 +22,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_zh6d6hs', 'template_k479uok', form.current, 'mO7q9bhVxRlenWhnb')
+        emailjs.sendForm('service_8kcq3zl', 'template_dl0emtp', form.current, 'P92rm0l0DnH5awtKX')
             .then((result) => {
                 console.log(result.text);
                 swal("Message Send successfully","success");

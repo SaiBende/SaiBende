@@ -35,7 +35,7 @@ function Hero() {
                         <p className="text-4xl font-bold md:text-7xl  text-white ">I'm <span className="text-orange-600">Sai Bende</span>.</p>
                         <p className="text-3xl  md:text-6xl text-white">I am a {' '} <span>
                             <Typewriter
-                                words={['Full Stack Dev.', 'Software Dev.', 'Web Designer.', 'Progemmer.']}
+                                words={['Full Stack Dev.', 'Software Dev.', 'Web Designer.', 'Programmer.']}
                                 loop={5}
                                 cursor
                                 cursorStyle='|'
