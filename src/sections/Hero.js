@@ -24,9 +24,9 @@ function Hero() {
     return (
         <div>
             {showConfetti && <Confetti numberOfPieces={500} width={window.innerWidth}  height={window.innerHeight} />}
-            <section className="px-10 pt-32  bg-black">
+            <section className="px-10 pt-32  bg-black ">
            
-                <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+                <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5 ">
                     <div className="order-1 lg:order-1 shadow-2xl ">
                         <img className="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] " src={HeroImg} alt="" />
                     </div>

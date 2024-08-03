@@ -33,10 +33,14 @@ function About() {
                                     <span className="text-gray-700 uppercase font-bold tracking-wider mb-2">Skills</span>
                                     <ul>
                                         <li className="mb-2">JavaScript</li>
-                                        <li className="mb-2">React</li>
+                                        <li className="mb-2">React Js</li>
                                         <li className="mb-2">Node.js</li>
-                                        <li className="mb-2">HTML/CSS/Tailwind Css</li>
-                                        <li className="mb-2">Python</li>
+                                        <li className="mb-2">Express js</li>
+                                        
+                                        <li className="mb-2">Tailwind CSS</li>
+                                        
+                                        <li className="mb-2">HTML,CSS</li>
+                                        
                                         <li className="mb-2">Java</li>
                                     </ul>
                                 </div>
