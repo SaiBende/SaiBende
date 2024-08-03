@@ -20,8 +20,8 @@ function Experience() {
                             </div>
                         </div>
                         <div class='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
-                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'> July 5, 2024 – August 7, 2024 </p>
-                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'>Ministry of Housing and Urban Affairs, TULIP(The Urban Learning Internship Program)</p>
+                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'> July 5,2024–August 7,2024 </p>
+                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'>Ministry of Housing and Urban Affairs,TULIP(The Urban Learning Internship Program)</p>
                         </div>
                     </div>
                     <div class='text-left p-2'>
