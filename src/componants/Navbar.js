@@ -16,7 +16,7 @@ function Navbar() {
                 <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
                     <div className='flex justify-between items-center '>
                     <img className="m-2" src={Personallogo}  width={45} alt='logo'/>
-                    <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">Portfolio </div>
+                    <div className="text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">Portfolio</div>
                     </div>
                     
 

@@ -16,16 +16,16 @@ function Experience() {
                             <img class='w-16  rounded-full ring-2 ring-orange-600 shadow-lg shadow-orange-600 m-2 md:block sm:flex-col' src={interncomplogo} alt="" />
                             <div class='text-left '>
 
-                                <h4 class='text-lg md:text-base font-medium dark:text-gray-200'>Web Development and Design Intern</h4>
+                                <h4 class='text-lg md:text-base font-medium text-white'>Web Development and Design Intern</h4>
                             </div>
                         </div>
                         <div class='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
-                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'> July 5,2024–August 7,2024 </p>
-                            <p class='text-sm md:text-base text-gray-800 dark:text-gray-200'>Ministry of Housing and Urban Affairs,TULIP(The Urban Learning Internship Program)</p>
+                            <p class='text-sm md:text-base text-white'> July 5,2024–August 7,2024 </p>
+                            <p class='text-sm md:text-base text-white'>Ministry of Housing and Urban Affairs,TULIP(The Urban Learning Internship Program)</p>
                         </div>
                     </div>
                     <div class='text-left p-2'>
-                        <p class='text-sm lg:text-base text-gray-600 dark:text-gray-400 pb-4'> Contributed to the Business Requirements Document (BRD) for the SEP DAY-NULM initiative.</p>
+                        <p class='text-sm lg:text-base text-white pb-4'> Contributed to the Business Requirements Document (BRD) for the SEP DAY-NULM initiative.</p>
                         <h4 class='text-base text-orange-800 font-semibold'>Key Responsibilities</h4>
                         <ul class='text-sm list-disc ml-6'>
                             <li>Participated in research, design, and fieldwork for web development projects.</li>
