@@ -3,6 +3,7 @@ import jscerti from '../assets/jscerti_page-0001.jpg';
 import pythoncerti from '../assets/pythoncer_page-0001.jpg';
 import htmlcsscerti from '../assets/htmlcsscerti_page-0001.jpg';
 import pythongooglecerti from '../assets/Copy of certi Sai Rajesh Bende_page-0001.jpg';
+import InternshipCertificate from '../assets/InternshipCertificate.png'
 
 function Certificates() {
   return (
@@ -18,7 +19,7 @@ function Certificates() {
         <div class="group cursor-pointer relative py-2 ">
           <img
             src={jscerti}
-            alt="Image 1"
+            alt="Image1"
             class=" h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           
@@ -26,7 +27,7 @@ function Certificates() {
         <div class="group cursor-pointer relative py-2 ">
           <img
             src={pythoncerti}
-            alt="Image 1"
+            alt="Image2"
             class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           
@@ -34,11 +35,13 @@ function Certificates() {
         <div class="group cursor-pointer relative py-2 ">
           <img
             src={htmlcsscerti}
-            alt="Image 1"
+            alt="Image3"
             class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           
         </div>
+
+        
        
         
 
@@ -64,10 +67,19 @@ function Certificates() {
 
      
 
-        <div class="group cursor-pointer relative ">
+        <div class="group cursor-pointer relative py-2 ">
           <img
             src={pythongooglecerti}
-            alt="Image 1"
+            alt="Image4"
+            class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          
+        </div>
+        
+        <div class="group cursor-pointer relative py-2">
+          <img
+            src={InternshipCertificate}
+            alt="Image5"
             class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           
