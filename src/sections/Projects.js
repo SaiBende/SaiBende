@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from '../componants/ProjectCard';
+import ProjectCard from "../components/ProjectCard";
 import pro1img from '../assets/CodeGPT.jpeg';
 import pro2img from '../assets/Nikrproject.jpeg';
 import pro3img from '../assets/VotingSystemPython.jpeg';

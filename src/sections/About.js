@@ -1,7 +1,7 @@
 import React from 'react'
 import saiimg from '../assets/saiimg.png';
-import Certificates from '../componants/Certificates';
-import SocialMedia from '../componants/SocialMedia';
+import Certificates from "../components/Certificates";
+import SocialMedia from "../components/SocialMedia";
 
 function About() {
     return (
