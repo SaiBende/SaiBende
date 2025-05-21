@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Confetti from 'react-confetti';
 import HeroImg from "../assets/heroimg.png";
 import { Typewriter } from 'react-simple-typewriter';
-import SocialMedia from '../componants/SocialMedia';
+import SocialMedia from '../components/SocialMedia';
 
 
 
