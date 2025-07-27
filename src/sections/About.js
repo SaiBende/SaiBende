@@ -36,12 +36,16 @@ function About() {
                                         <li className="mb-2">React Js</li>
                                         <li className="mb-2">Node.js</li>
                                         <li className="mb-2">Express js</li>
-                                        
+                                        <li className="mb-2">Next js</li>
                                         <li className="mb-2">Tailwind CSS</li>
+                                        <li className="mb-2">Shadcn UI</li>
                                         
-                                        <li className="mb-2">HTML,CSS</li>
+                                        <li className="mb-2">HTML & CSS</li>
                                         
                                         <li className="mb-2">Java</li>
+                                        <li className="mb-2">Database with MongoDB & MySQL</li>
+
+
                                     </ul>
                                 </div>
                             </div>

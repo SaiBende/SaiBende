@@ -22,8 +22,8 @@ function Experience() {
                         <div class='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
                             <p class='text-sm md:text-base text-white'> July 5,2024–August 7,2024 </p>
                             <p class="hidden md:block text-sm md:text-base text-white">
-  Ministry of Housing and Urban Affairs, TULIP (The Urban Learning Internship Program)
-</p>
+                                Ministry of Housing and Urban Affairs, TULIP (The Urban Learning Internship Program)
+                            </p>
                         </div>
                     </div>
                     <div class='text-left p-2'>

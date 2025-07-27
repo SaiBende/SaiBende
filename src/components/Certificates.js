@@ -3,7 +3,8 @@ import jscerti from '../assets/jscerti_page-0001.jpg';
 import pythoncerti from '../assets/pythoncer_page-0001.jpg';
 import htmlcsscerti from '../assets/htmlcsscerti_page-0001.jpg';
 import pythongooglecerti from '../assets/Copy of certi Sai Rajesh Bende_page-0001.jpg';
-import InternshipCertificate from '../assets/InternshipCertificate.png'
+import InternshipCertificate from '../assets/InternshipCertificate.png';
+import AWS_Cloud_Practitioner_Essentials from '../assets/AWS_Cloud_Practitioner_Essentials.png';
 
 function Certificates() {
   return (
@@ -12,7 +13,14 @@ function Certificates() {
 
   
 
-        
+         <div class="group cursor-pointer relative py-2 ">
+          <img
+            src={AWS_Cloud_Practitioner_Essentials}
+            alt="Image2"
+            class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          
+        </div>
 
      
 
@@ -32,14 +40,8 @@ function Certificates() {
           />
           
         </div>
-        <div class="group cursor-pointer relative py-2 ">
-          <img
-            src={htmlcsscerti}
-            alt="Image3"
-            class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
-          />
-          
-        </div>
+        
+       
 
         
        
@@ -80,6 +82,15 @@ function Certificates() {
           <img
             src={InternshipCertificate}
             alt="Image5"
+            class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
+          />
+          
+        </div>
+
+         <div class="group cursor-pointer relative py-2 ">
+          <img
+            src={htmlcsscerti}
+            alt="Image3"
             class="h-52 w-full object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"
           />
           
