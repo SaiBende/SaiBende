@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.315ce69b.css",
-    "main.js": "/static/js/main.93e44c31.js",
+    "main.css": "/static/css/main.b58a865d.css",
+    "main.js": "/static/js/main.34d38b7f.js",
     "static/js/787.e6d6c67a.chunk.js": "/static/js/787.e6d6c67a.chunk.js",
     "static/media/heroimg.png": "/static/media/heroimg.f4954a7851aa61c123bd.png",
     "static/media/saiimg.png": "/static/media/saiimg.32ed49c80624272a370c.png",
     "static/media/jscerti_page-0001.jpg": "/static/media/jscerti_page-0001.0135ab5ab6449f7d93a5.jpg",
     "static/media/htmlcsscerti_page-0001.jpg": "/static/media/htmlcsscerti_page-0001.e0904efe1e49c45c73da.jpg",
     "static/media/pythoncer_page-0001.jpg": "/static/media/pythoncer_page-0001.ca4c76cc59f089a32091.jpg",
+    "static/media/og-home.png": "/static/media/og-home.140754cbd2f586e72b0f.png",
     "static/media/Copy of certi Sai Rajesh Bende_page-0001.jpg": "/static/media/Copy of certi Sai Rajesh Bende_page-0001.985ab14b24a2ea99296c.jpg",
+    "static/media/urlshortner.png": "/static/media/urlshortner.5fdccce764ae85f25c38.png",
     "static/media/VotingSystemPython.jpeg": "/static/media/VotingSystemPython.da13fabd7e54ed2b541b.jpeg",
     "static/media/CodeGPT.jpeg": "/static/media/CodeGPT.8f7521ad3616dd6094fa.jpeg",
+    "static/media/projecthub.png": "/static/media/projecthub.93124f05ac59990f5c6f.png",
+    "static/media/InternshipCertificate.png": "/static/media/InternshipCertificate.148bf6402fb8377bcb51.png",
     "static/media/Nikrproject.jpeg": "/static/media/Nikrproject.34f3fcc46d505ee2e6d4.jpeg",
+    "static/media/AWS_Cloud_Practitioner_Essentials.png": "/static/media/AWS_Cloud_Practitioner_Essentials.b75d250f7e09b1d679c4.png",
+    "static/media/Personallogo.png": "/static/media/Personallogo.f72a249682f8baed7d0e.png",
     "index.html": "/index.html",
-    "main.315ce69b.css.map": "/static/css/main.315ce69b.css.map",
-    "main.93e44c31.js.map": "/static/js/main.93e44c31.js.map",
+    "main.b58a865d.css.map": "/static/css/main.b58a865d.css.map",
+    "main.34d38b7f.js.map": "/static/js/main.34d38b7f.js.map",
     "787.e6d6c67a.chunk.js.map": "/static/js/787.e6d6c67a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.315ce69b.css",
-    "static/js/main.93e44c31.js"
+    "static/css/main.b58a865d.css",
+    "static/js/main.34d38b7f.js"
   ]
 }
