@@ -1,3 +1,109 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-heading: "Sora", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor targets so they aren't hidden behind the fixed navbar */
+  scroll-padding-top: 5rem;
+}
+
+/* ---- Preloader animations ---- */
+@keyframes logo-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.12);
+    opacity: 0.85;
+  }
+}
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes spin-reverse {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* ---- Scroll reveals ----
+ *
+ * Driven by the <Reveal> component, which adds `reveal-in` once the element
+ * has been scrolled to.
+ *
+ * These are keyframe *animations* rather than `transition`s on purpose: a
+ * transition on opacity/transform would overwrite `transition-colors` and
+ * friends on the same element, and an `animation-fill-mode` of `forwards`
+ * would permanently beat hover styles such as `hover:-translate-y-1`. Using
+ * `backwards` fill means the element falls back to its own declared styles
+ * the moment the animation finishes, so hover effects keep working.
+ *
+ * Lives in the `components` layer so Tailwind utilities still win when they
+ * need to.
+ */
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(var(--reveal-x, 0px), var(--reveal-y, 24px), 0)
+      scale(var(--reveal-scale, 1));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ---- Contribution calendar ----
+ *
+ * Replayed whenever a different year is picked (the graph is keyed by year, so
+ * React remounts it and the animation runs again).
+ */
+@keyframes chart-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@layer components {
+  .chart-fade {
+    animation: chart-fade 350ms ease-out;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translate3d(var(--reveal-x, 0px), var(--reveal-y, 24px), 0)
+      scale(var(--reveal-scale, 1));
+  }
+
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+    animation: reveal var(--reveal-duration, 700ms) cubic-bezier(0.22, 1, 0.36, 1)
+      var(--reveal-delay, 0ms) backwards;
+  }
+}
+
+/* Anyone who asks for reduced motion gets the content straight away */
+@media (prefers-reduced-motion: reduce) {
+  .chart-fade,
+  .reveal,
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
