@@ -11,7 +11,7 @@
 
 - 👯 I’m looking to collaborate on [SGGS URL Web Service](https://github.com/SaiBende/SGGS)
 
-- 👨‍💻 All of my projects are available at [saibende.tech](saibende.tech)
+- 👨‍💻 All of my projects are available at [saibende.in](https://saibende.in)
 
 - 💬 Ask me about **React js , Node Js,**
 
