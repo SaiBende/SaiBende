@@ -9,7 +9,7 @@ import {
     FaXTwitter,
 } from 'react-icons/fa6';
 import { SiLeetcode } from 'react-icons/si';
-import Personallogo from '../assets/Personallogo.png';
+import Logo from '../assets/logo.png';
 import Reveal from '../components/Reveal';
 
 const SITE = {
@@ -33,7 +33,7 @@ const NAV_LINKS = [
 
 const SOCIALS = [
     { label: 'GitHub', href: 'https://github.com/SaiBende', Icon: FaGithub },
-    { label: 'LinkedIn', href: 'https://linkedin.com/in/saibende', Icon: FaLinkedinIn },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/saibende', Icon: FaLinkedinIn },
     { label: 'LeetCode', href: 'https://leetcode.com/SaiBende/', Icon: SiLeetcode },
     { label: 'X', href: 'https://x.com/SaiBende1', Icon: FaXTwitter },
 ];
@@ -60,8 +60,12 @@ function Footer() {
                         <a href='#home' className='inline-flex items-center gap-2'>
                             <img
                                 className='h-11 w-11'
-                                src={Personallogo}
-                                alt={`${SITE.name} logo`}
+                                src={Logo}
+                                alt={`${SITE.name} — Full Stack Developer`}
+                                width={256}
+                                height={256}
+                                loading='lazy'
+                                decoding='async'
                             />
                             <span className='font-heading text-2xl font-bold text-white'>
                                 {SITE.name}
@@ -69,8 +73,13 @@ function Footer() {
                         </a>
 
                         <p className='mt-4 max-w-xs text-sm leading-relaxed text-gray-400'>
-                            Full Stack Developer building clean, fast and accessible web
-                            applications.
+                            Full stack developer and web developer in Nanded, Maharashtra, India.
+                            I build fast, accessible websites and web applications with React,
+                            Next.js, Node.js and Java.
+                        </p>
+                        <p className='mt-3 max-w-xs text-sm leading-relaxed text-gray-500'>
+                            Available for freelance and full-time work in Nanded, Pune, Mumbai and
+                            remotely across India.
                         </p>
 
                         <ul className='mt-6 flex flex-wrap items-center gap-3'>
@@ -79,8 +88,8 @@ function Footer() {
                                     <a
                                         href={href}
                                         target='_blank'
-                                        rel='noreferrer'
-                                        aria-label={label}
+                                        rel='me noreferrer'
+                                        aria-label={`${label} profile of Sai Bende`}
                                         className='flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-white/[0.03] text-gray-400 transition-colors duration-300 hover:border-orange-600/40 hover:text-orange-500'
                                     >
                                         <Icon className='h-5 w-5' aria-hidden='true' />

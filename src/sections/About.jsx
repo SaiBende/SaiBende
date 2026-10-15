@@ -1,5 +1,7 @@
 import React from 'react';
-import saiimg1 from '../assets/saiiimg-1.png';
+import saiimg1Png from '../assets/saiiimg-1.png';
+import saiimg1Webp from '../assets/saiiimg-1.webp';
+import saiimg1Avif from '../assets/saiiimg-1.avif';
 import Certificates from "../components/Certificates";
 import SocialMedia from "../components/SocialMedia";
 import SectionHeading from '../components/SectionHeading';
@@ -74,17 +76,25 @@ function About() {
                                     aria-hidden='true'
                                     className='absolute bottom-0 left-1/2 h-32 w-32 -translate-x-1/2 rounded-full bg-orange-600/25 blur-3xl'
                                 />
-                                <img
-                                    src={saiimg1}
-                                    alt='Sai Bende'
-                                    className='relative h-56 w-auto object-contain drop-shadow-[0_16px_30px_rgba(0,0,0,0.6)]'
-                                    style={{
-                                        WebkitMaskImage:
-                                            'linear-gradient(to bottom, #000 70%, transparent 100%)',
-                                        maskImage:
-                                            'linear-gradient(to bottom, #000 70%, transparent 100%)',
-                                    }}
-                                />
+                                <picture className='contents'>
+                                    <source srcSet={saiimg1Avif} type='image/avif' />
+                                    <source srcSet={saiimg1Webp} type='image/webp' />
+                                    <img
+                                        src={saiimg1Png}
+                                        alt='Sai Bende, full stack developer in Nanded, Maharashtra'
+                                        width={344}
+                                        height={460}
+                                        loading='lazy'
+                                        decoding='async'
+                                        className='relative h-56 w-auto object-contain drop-shadow-[0_16px_30px_rgba(0,0,0,0.6)]'
+                                        style={{
+                                            WebkitMaskImage:
+                                                'linear-gradient(to bottom, #000 70%, transparent 100%)',
+                                            maskImage:
+                                                'linear-gradient(to bottom, #000 70%, transparent 100%)',
+                                        }}
+                                    />
+                                </picture>
                             </div>
 
                             <h3 className='mt-5 font-heading text-2xl font-bold text-white'>
@@ -150,15 +160,22 @@ function About() {
                                 About Me
                             </h3>
                             <p className='mt-4 text-base leading-relaxed text-gray-300 text-justify'>
-                                I&rsquo;m a dedicated and passionate Full Stack developer with a love for
-                                problem-solving and innovation. With a strong foundation in various
-                                programming languages and frameworks, I strive to create website that
-                                not only functions efficiently but also drives progress in the tech
-                                industry. I believe in the power of collaboration and am always eager
-                                to learn and grow. In my spare time, I enjoy exploring the latest tech
-                                trends and contributing to open-source projects. I&rsquo;m excited to
-                                connect with like-minded individuals and look forward to the
-                                opportunities and challenges that lie ahead in my software career.
+                                I&rsquo;m Sai Bende, a full stack developer and web developer from
+                                Vazirabad, Nanded, Maharashtra. I build production web applications end
+                                to end &mdash; designing interfaces in React, Next.js and Tailwind CSS,
+                                then wiring them to REST APIs in Node.js, Express, Java and Spring Boot
+                                on top of PostgreSQL, MySQL and MongoDB. My current work is a 90+ page
+                                Korean culture platform with real-time chat, geolocation, subscription
+                                payments and cloud deployment; my own projects range from a MERN project
+                                management app to a Python code-review chatbot built on the OpenAI API.
+                            </p>
+                            <p className='mt-4 text-base leading-relaxed text-gray-300 text-justify'>
+                                I care about the details that make a website feel fast and easy to use:
+                                responsive layout, accessibility, clean semantic markup and search
+                                engine optimisation. Based in Nanded, I work with teams and clients in
+                                Pune, Mumbai, Hyderabad and Bengaluru, and remotely with startups across
+                                India. I&rsquo;m always open to new projects, collaborations and
+                                full-time roles.
                             </p>
 
                             <h4 className='mt-10 text-center text-xs font-semibold uppercase tracking-wider text-gray-400'>

@@ -25,7 +25,9 @@ function ProjectCard({ image, name, description, github, live, tags = [], delay 
             <div className="relative h-52 w-full overflow-hidden sm:h-56">
                 <img
                     src={image}
-                    alt={`${name} preview`}
+                    alt={`${name} — web application built by Sai Bende`}
+                    loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
             </div>

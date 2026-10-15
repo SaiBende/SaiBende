@@ -1,5 +1,7 @@
 import React from 'react';
-import HeroImg from '../assets/heroimg.png';
+import HeroPng from '../assets/heroimg.png';
+import HeroWebp from '../assets/heroimg.webp';
+import HeroAvif from '../assets/heroimg.avif';
 import { Typewriter } from 'react-simple-typewriter';
 import SocialMedia from '../components/SocialMedia';
 import Reveal from '../components/Reveal';
@@ -22,12 +24,25 @@ function Hero() {
                     {/* Soft glow behind the cutout */}
                     <div className="pointer-events-none absolute h-64 w-64 rounded-full bg-orange-600/20 blur-3xl sm:h-72 sm:w-72 lg:h-[420px] lg:w-[420px]" />
 
-                    {/* Transparent portrait — drop-shadow follows the silhouette, not a box */}
-                    <img
-                        src={HeroImg}
-                        alt="Sai Bende"
-                        className="relative h-72 w-72 object-contain drop-shadow-[0_18px_35px_rgba(0,0,0,0.6)] sm:h-80 sm:w-80 lg:h-[480px] lg:w-[480px]"
-                    />
+                    {/*
+                      * Transparent portrait — drop-shadow follows the silhouette,
+                      * not a box. Served as AVIF (112 KB) with WebP and PNG
+                      * fallbacks; the original PNG was 6.7 MB at 6250x6250 for a
+                      * slot that is never wider than 480 CSS px.
+                      */}
+                    <picture className="contents">
+                        <source srcSet={HeroAvif} type="image/avif" />
+                        <source srcSet={HeroWebp} type="image/webp" />
+                        <img
+                            src={HeroPng}
+                            alt="Sai Bende, full stack developer and web developer in Nanded, Maharashtra"
+                            width={960}
+                            height={960}
+                            fetchPriority="high"
+                            decoding="async"
+                            className="relative h-72 w-72 object-contain drop-shadow-[0_18px_35px_rgba(0,0,0,0.6)] sm:h-80 sm:w-80 lg:h-[480px] lg:w-[480px]"
+                        />
+                    </picture>
                 </Reveal>
 
                 {/* Intro — each block cascades in after the one before it */}
@@ -49,7 +64,7 @@ function Hero() {
                     </Reveal>
 
                     <Reveal
-                        as="p"
+                        as="h2"
                         delay={280}
                         className="mt-4 text-2xl font-semibold leading-tight text-gray-200 sm:text-3xl lg:text-4xl"
                     >
@@ -72,8 +87,9 @@ function Hero() {
                         delay={360}
                         className="mt-5 max-w-xl text-base leading-relaxed text-gray-400 sm:text-lg"
                     >
-                        Designer and Developer devoted to crafting beautiful web experiences focused on
-                        simplicity and purpose.
+                        Full stack developer based in Nanded, Maharashtra, India &mdash; I build fast,
+                        responsive websites and web applications with React, Next.js, Node.js, Java and
+                        PostgreSQL. Available for freelance and full-time work across India.
                     </Reveal>
 
                     <Reveal delay={440} y={20} className="mt-8 flex flex-col gap-3 sm:flex-row">

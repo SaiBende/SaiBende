@@ -1,3 +1,9 @@
-# https://www.robotstxt.org/robotstxt.html
+# https://saibende.in/robots.txt
+# Everything is public: the page, its JS/CSS (Googlebot needs them to render
+# the React app) and the favicons. Blocking any of those would cost us both
+# ranking and the favicon in search results.
+
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://saibende.in/sitemap.xml

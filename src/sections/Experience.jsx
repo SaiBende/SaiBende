@@ -73,6 +73,8 @@ function Experience() {
                                     <img
                                         src={item.preview}
                                         alt={item.previewAlt}
+                                        loading='lazy'
+                                        decoding='async'
                                         className='max-h-80 w-full object-cover object-top transition-transform duration-500 group-hover:scale-[1.03]'
                                     />
                                 </a>
@@ -84,6 +86,8 @@ function Experience() {
                                     <img
                                         src={item.logo}
                                         alt={item.logoAlt}
+                                        loading='lazy'
+                                        decoding='async'
                                         className='h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-orange-600'
                                     />
                                     <div className='min-w-0'>

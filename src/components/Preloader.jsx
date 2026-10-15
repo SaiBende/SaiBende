@@ -1,5 +1,5 @@
 import React from 'react';
-import Personallogo from '../assets/Personallogo.png';
+import Logo from '../assets/logo.png';
 
 function Preloader({ isFading }) {
     return (
@@ -21,8 +21,11 @@ function Preloader({ isFading }) {
 
                 {/* Logo */}
                 <img
-                    src={Personallogo}
+                    src={Logo}
                     alt="Sai Bende logo"
+                    width={256}
+                    height={256}
+                    decoding="async"
                     className="h-24 w-24 rounded-full object-cover animate-[logo-pulse_1.6s_ease-in-out_infinite]"
                 />
             </div>

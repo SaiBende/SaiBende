@@ -1,33 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-IN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
+
+    <!-- ===================================================================
+         Primary
+         =================================================================== -->
+    <title>Sai Bende | Full Stack Developer & Web Developer in Nanded, Maharashtra</title>
     <meta
       name="description"
-      content="Hi, I'm Sai Bende, a Full Stack Developer passionate about crafting beautiful web experiences focused on simplicity and purpose. Explore my projects, experience, and skills."
+      content="Sai Bende is a full stack web developer in Nanded, Maharashtra, India, building fast, responsive websites and web apps with React, Next.js, Node.js and Java. Available for freelance and full-time work across India."
     />
-    <meta name="keywords" content="Sai Bende, Full Stack Developer, Web Developer, JavaScript, React, Node.js, MERN Stack, Portfolio, Projects, Web Design" />
+    <meta
+      name="keywords"
+      content="Sai Bende, Sai Bende portfolio, Sai Rajesh Bende, full stack developer, full stack developer in Nanded, web developer in Nanded, website developer in Nanded, web developer in Maharashtra, web developer in Pune, freelance web developer India, MERN stack developer, React developer, Next.js developer, Node.js developer, Express.js developer, Java developer, Spring Boot developer, frontend developer, backend developer, API developer, PostgreSQL developer, MongoDB developer, hire web developer in India, web design Nanded, remote full stack developer India"
+    />
     <meta name="author" content="Sai Bende" />
+    <meta name="creator" content="Sai Bende" />
+    <meta name="publisher" content="Sai Bende" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow, max-image-preview:large" />
 
-    <link rel="apple-touch-icon" href="/Personallogo.png" />
-    <meta name="google-site-verification" content="5VJExmcFSiTxxrjk8aLkHznAUbdZMsh9WqMhtYYAK6o"/>
+    <link rel="canonical" href="https://saibende.in/" />
+    <link rel="alternate" hreflang="en-IN" href="https://saibende.in/" />
+    <link rel="alternate" hreflang="x-default" href="https://saibende.in/" />
+
+    <!-- ===================================================================
+         Icons. Google needs a square icon in a multiple of 48px with an
+         accurate `sizes`, plus a /favicon.ico fallback - without those it
+         drops the favicon from search results entirely.
+         =================================================================== -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" type="image/x-icon" />
+    <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png" />
+    <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+    <link rel="icon" href="/favicon.png" sizes="192x192" type="image/png" />
+    <link rel="icon" href="/favicon-512x512.png" sizes="512x512" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="application-name" content="Sai Bende" />
+    <meta name="apple-mobile-web-app-title" content="Sai Bende" />
 
+    <!-- ===================================================================
+         Local signals - Nanded, Maharashtra, India
+         =================================================================== -->
+    <meta name="geo.region" content="IN-MH" />
+    <meta name="geo.placename" content="Nanded, Maharashtra, India" />
+    <meta name="geo.position" content="19.1383;77.3210" />
+    <meta name="ICBM" content="19.1383, 77.3210" />
+
+    <!-- ===================================================================
+         Social preview (LinkedIn, X, WhatsApp, Slack, Discord)
+         =================================================================== -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sai Bende" />
+    <meta property="og:url" content="https://saibende.in/" />
+    <meta property="og:locale" content="en_IN" />
+    <meta
+      property="og:title"
+      content="Sai Bende | Full Stack Developer & Web Developer in Nanded, Maharashtra"
+    />
+    <meta
+      property="og:description"
+      content="Full stack web developer in Nanded, Maharashtra, India. I build fast, responsive websites and web applications with React, Next.js, Node.js and Java."
+    />
+    <meta property="og:image" content="https://saibende.in/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sai Bende, Full Stack Developer, Nanded, Maharashtra, India" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@SaiBende1" />
+    <meta name="twitter:creator" content="@SaiBende1" />
+    <meta
+      name="twitter:title"
+      content="Sai Bende | Full Stack Developer & Web Developer in Nanded, Maharashtra"
+    />
+    <meta
+      name="twitter:description"
+      content="Full stack web developer in Nanded, Maharashtra, India. React, Next.js, Node.js, Java and PostgreSQL."
+    />
+    <meta name="twitter:image" content="https://saibende.in/og-image.png" />
+    <meta name="twitter:image:alt" content="Sai Bende, Full Stack Developer" />
+
+    <meta name="google-site-verification" content="5VJExmcFSiTxxrjk8aLkHznAUbdZMsh9WqMhtYYAK6o" />
+
+    <!-- ===================================================================
+         Fonts + LCP image
+         =================================================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" as="image" href="/src/assets/heroimg.avif" type="image/avif" fetchpriority="high" />
 
-    <title>Sai Bende</title>
+    <!-- ===================================================================
+         Structured data: who Sai Bende is, what he does, where he works
+         =================================================================== -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://saibende.in/#person",
+            "name": "Sai Bende",
+            "alternateName": "Sai Rajesh Bende",
+            "givenName": "Sai",
+            "familyName": "Bende",
+            "url": "https://saibende.in/",
+            "mainEntityOfPage": "https://saibende.in/",
+            "image": "https://saibende.in/og-image.png",
+            "jobTitle": "Full Stack Developer",
+            "description": "Sai Bende is a full stack developer and web developer based in Nanded, Maharashtra, India. He builds fast, responsive websites and web applications with React, Next.js, Node.js, Express, PostgreSQL, MongoDB, Java and Spring Boot.",
+            "email": "mailto:bendesai5703@gmail.com",
+            "telephone": "+91-8975555385",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Nanded",
+              "addressRegion": "Maharashtra",
+              "addressCountry": "IN"
+            },
+            "nationality": { "@type": "Country", "name": "India" },
+            "knowsLanguage": ["English", "Hindi", "Marathi"],
+            "knowsAbout": [
+              "Full Stack Development",
+              "Web Development",
+              "Website Development",
+              "React.js",
+              "Next.js",
+              "JavaScript",
+              "TypeScript",
+              "Node.js",
+              "Express.js",
+              "REST API Development",
+              "Java",
+              "Spring Boot",
+              "PostgreSQL",
+              "MongoDB",
+              "MySQL",
+              "Tailwind CSS",
+              "AWS",
+              "Stripe",
+              "Razorpay",
+              "Responsive Web Design",
+              "SEO"
+            ],
+            "hasOccupation": {
+              "@type": "Occupation",
+              "name": "Full Stack Developer",
+              "occupationLocation": { "@type": "City", "name": "Nanded, Maharashtra, India" },
+              "skills": "React.js, Next.js, Node.js, Express.js, Java, Spring Boot, PostgreSQL, MongoDB, TypeScript, Tailwind CSS"
+            },
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Lumantara Ltd",
+              "url": "https://hangukverse.com"
+            },
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded"
+            },
+            "sameAs": [
+              "https://github.com/SaiBende",
+              "https://www.linkedin.com/in/saibende",
+              "https://x.com/SaiBende1",
+              "https://leetcode.com/SaiBende/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://saibende.in/#website",
+            "url": "https://saibende.in/",
+            "name": "Sai Bende - Full Stack Developer Portfolio",
+            "alternateName": "Sai Bende Portfolio",
+            "description": "Portfolio of Sai Bende, a full stack developer and web developer in Nanded, Maharashtra, India.",
+            "inLanguage": "en-IN",
+            "author": { "@id": "https://saibende.in/#person" },
+            "publisher": { "@id": "https://saibende.in/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://saibende.in/#webpage",
+            "url": "https://saibende.in/",
+            "name": "Sai Bende | Full Stack Developer & Web Developer in Nanded, Maharashtra",
+            "description": "Projects, experience and skills of Sai Bende, a full stack web developer in Nanded, Maharashtra, India.",
+            "isPartOf": { "@id": "https://saibende.in/#website" },
+            "about": { "@id": "https://saibende.in/#person" },
+            "mainEntity": { "@id": "https://saibende.in/#person" },
+            "primaryImageOfPage": "https://saibende.in/og-image.png",
+            "inLanguage": "en-IN"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://saibende.in/#service",
+            "name": "Sai Bende - Web Development Services",
+            "description": "Full stack web development, website design and web application development from Nanded, Maharashtra, for clients across India.",
+            "url": "https://saibende.in/",
+            "image": "https://saibende.in/og-image.png",
+            "email": "mailto:bendesai5703@gmail.com",
+            "telephone": "+91-8975555385",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Nanded",
+              "addressRegion": "Maharashtra",
+              "addressCountry": "IN"
+            },
+            "founder": { "@id": "https://saibende.in/#person" },
+            "provider": { "@id": "https://saibende.in/#person" },
+            "serviceType": [
+              "Full Stack Web Development",
+              "Website Development",
+              "React Development",
+              "Next.js Development",
+              "API Development",
+              "Web Application Development"
+            ],
+            "areaServed": [
+              { "@type": "City", "name": "Nanded" },
+              { "@type": "City", "name": "Pune" },
+              { "@type": "City", "name": "Mumbai" },
+              { "@type": "City", "name": "Hyderabad" },
+              { "@type": "City", "name": "Bengaluru" },
+              { "@type": "State", "name": "Maharashtra" },
+              { "@type": "Country", "name": "India" }
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Web development services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Full Stack Web Application Development",
+                    "description": "End-to-end web application development with React, Next.js, Node.js, Express, PostgreSQL and MongoDB."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Website Design and Development",
+                    "description": "Fast, responsive, accessible marketing websites and portfolios with modern frontend tooling."
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "REST API and Backend Development",
+                    "description": "REST APIs, authentication, databases and third-party integrations in Node.js, Express, Java and Spring Boot."
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    </script>
   </head>
-  <body>
+  <body class="bg-black">
     <div id="root"></div>
+
+    <noscript>
+      <div style="background: #000; color: #e5e7eb; font-family: Inter, system-ui, sans-serif; padding: 2.5rem 1.5rem; max-width: 46rem; margin: 0 auto; line-height: 1.7">
+        <h1 style="color: #fff; font-size: 1.75rem; margin: 0 0 0.5rem">
+          Sai Bende &mdash; Full Stack Developer &amp; Web Developer in Nanded, Maharashtra, India
+        </h1>
+        <p style="color: #f97316; margin: 0 0 1.25rem">
+          React &middot; Next.js &middot; Node.js &middot; Express &middot; Java &middot; Spring Boot &middot; PostgreSQL &middot; MongoDB
+        </p>
+        <p>
+          I build fast, responsive websites and full stack web applications. Based in
+          Vazirabad, Nanded, Maharashtra, I work with teams and clients in Pune, Mumbai,
+          Hyderabad, Bengaluru and remotely across India.
+        </p>
+        <p>
+          This portfolio needs JavaScript to display the interactive version. You can still
+          reach me directly:
+        </p>
+        <ul>
+          <li>Email: <a style="color: #f97316" href="mailto:bendesai5703@gmail.com">bendesai5703@gmail.com</a></li>
+          <li>Phone: <a style="color: #f97316" href="tel:+918975555385">+91 89755 55385</a></li>
+          <li>GitHub: <a style="color: #f97316" href="https://github.com/SaiBende">github.com/SaiBende</a></li>
+          <li>LinkedIn: <a style="color: #f97316" href="https://www.linkedin.com/in/saibende">linkedin.com/in/saibende</a></li>
+          <li>X: <a style="color: #f97316" href="https://x.com/SaiBende1">x.com/SaiBende1</a></li>
+          <li>LeetCode: <a style="color: #f97316" href="https://leetcode.com/SaiBende/">leetcode.com/SaiBende</a></li>
+        </ul>
+      </div>
+    </noscript>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

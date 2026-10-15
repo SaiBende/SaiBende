@@ -21,6 +21,7 @@ const projects = [
     name: 'URL Shortener WebSite',
     image: urlshortner,
     github: 'https://github.com/SaiBende/URL_Shortner',
+    live : 'https://sggs.saibende.in',
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
     description:
       'Developed a URL shortener web application utilizing the MERN stack, consisting of MongoDB, Express.js, React.js, and Node.js. The application offers a seamless and interactive user experience, built with React.js for a responsive and intuitive interface. Server-side operations and API requests are efficiently handled using Node.js and Express.js, while MongoDB ensures efficient data storage and retrieval. Key features include the ability to shorten long URLs, track usage statistics, and manage links through a user-friendly interface, allowing users to view, edit, and delete their shortened URLs.',

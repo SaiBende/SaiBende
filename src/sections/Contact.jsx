@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaEnvelope, FaLocationDot, FaPhone } from 'react-icons/fa6';
+import { FaEarthAsia, FaEnvelope, FaLocationDot, FaPhone } from 'react-icons/fa6';
 import SectionHeading from '../components/SectionHeading';
 import Reveal from '../components/Reveal';
 
@@ -30,6 +30,11 @@ const EMAILJS = {
 };
 
 const contactDetails = [
+    {
+        Icon: FaEarthAsia,
+        label: 'Availability',
+        value: 'Open to remote roles across India, on-site around Nanded & Pune',
+    },
     {
         Icon: FaLocationDot,
         label: 'Location',
@@ -123,12 +128,12 @@ function Contact() {
                             Let&rsquo;s Connect
                         </h3>
                         <p className='mt-4 text-base leading-relaxed text-gray-400 text-justify'>
-                            As a passionate software developer, I&rsquo;ve always believed in the power
-                            of connection. Whether it&rsquo;s through code or conversation, I&rsquo;m
-                            all about building bridges. If you&rsquo;re interested in discussing a
-                            project, an idea, or if you just want to chat about the latest tech trends,
-                            I&rsquo;m just a call or visit away. You can find my contact details below.
-                            Looking forward to connecting with you!
+                            I&rsquo;m based in Vazirabad, Nanded, Maharashtra, and I take on freelance
+                            projects, contract work and full-time roles &mdash; on-site around Nanded
+                            and Pune, or remotely anywhere in India. Whether you need a website, a
+                            full stack web application or a hand with an existing codebase, tell me
+                            what you&rsquo;re building and I&rsquo;ll get back to you soon. You can
+                            find my contact details below.
                         </p>
 
                         <ul className='mt-8 space-y-5'>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Personallogo from '../assets/Personallogo.png';
+import Logo from '../assets/logo.png';
 
 const NAV_LINKS = [
     { label: 'Home', href: '#home', id: 'home' },
@@ -51,7 +51,14 @@ function Navbar() {
                 <div className="flex h-16 items-center justify-between lg:h-20">
                     {/* Logo */}
                     <a href="#home" onClick={closeMenu} className="flex items-center gap-2">
-                        <img className="h-11 w-11" src={Personallogo} alt="Sai Bende logo" />
+                        <img
+                            className="h-11 w-11"
+                            src={Logo}
+                            alt="Sai Bende — Full Stack Developer & Web Developer in Nanded, Maharashtra"
+                            width={256}
+                            height={256}
+                            decoding="async"
+                        />
                         <span className="text-2xl font-bold text-white transition-colors hover:text-orange-600 lg:text-3xl">
                             Portfolio
                         </span>
